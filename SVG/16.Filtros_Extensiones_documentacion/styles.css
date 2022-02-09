@@ -1,0 +1,17 @@
+.giro{
+    animation: giro 2s  linear infinite;
+    fill:yellow;
+    transform-origin: center;
+}
+
+@keyframes giro{
+    0%{
+        transform: rotateZ(0deg);
+        fill:yellow;
+       
+    }
+    100%{
+        transform: rotateZ(364deg);
+        fill:red;
+    }
+}

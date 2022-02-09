@@ -1,0 +1,15 @@
+.giro{
+  animation:girando 10s linear infinite; 
+  transform-origin:center;
+}
+
+@keyframes girando{
+    0%{
+       transform:rotateZ(0deg);
+       fill:red;
+    }
+    100%{
+        transform:rotateZ(359deg);
+        fill:yellow;
+    }
+}
